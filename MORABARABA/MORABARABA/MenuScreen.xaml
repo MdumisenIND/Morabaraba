@@ -1,0 +1,29 @@
+﻿<Window x:Class="Morabaraba.MenuScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Morabaraba"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowState="Maximized" WindowStyle="None"
+        Title="Menu Screen" Height="768" Width="1366"
+        x:Name="menu" >
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images\field - Blur.jpg"/>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Center" Height="520" Margin="478,122,502,126" VerticalAlignment="Center" Width="380">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images\large.jpg"/>
+            </Grid.Background>
+            <Button x:Name="NewGameButton"  Content="New Game" HorizontalAlignment="Center" Margin="135,56,125,0" VerticalAlignment="Top" Width="120" Height="54" Click="NewGameButton_Click" FontFamily="Showcard Gothic"/>
+            <Button x:Name="Saved" Content="Load Game" HorizontalAlignment="Center" Margin="135,158,125,0" VerticalAlignment="Top" Width="120" Height="54" FontFamily="Showcard Gothic" Click="Saved_Click"/>
+            <Button Content="Instructions" HorizontalAlignment="Center" Margin="135,270,125,0" VerticalAlignment="Top" Width="120" Height="54" FontFamily="Showcard Gothic"/>
+            <Button x:Name="Quit" Content="Quit" HorizontalAlignment="Center" Margin="135,390,125,0" VerticalAlignment="Top" Width="120" Height="54" FontFamily="Showcard Gothic" Click="Quit_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

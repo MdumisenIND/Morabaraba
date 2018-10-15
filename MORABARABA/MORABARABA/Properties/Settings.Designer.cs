@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MORABARABA.Properties
+namespace Morabaraba.Properties
 {
 
 
