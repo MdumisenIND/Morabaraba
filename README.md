@@ -40,7 +40,7 @@ Winning the game
 
 Tools used: ThinkLib library
 
-Concepts used: Lists, custom classes, enums, strings. iterations.
+Concepts used: Lists and Arrays, custom classes, Event handling, enums, strings. iterations(for loops and foreach to go through the list),  I/O files ( for the instruction of the game), Algorithm (for pressing the buttons on the game, so that there's an order wghen playing).
 
 Assumptions: minimun screen resolution of 800x600
 
